@@ -1,0 +1,210 @@
+:root{
+    --dark:rgb(77, 77, 77);
+    --light:rgb(146, 145, 145);
+}
+
+
+*{
+    margin: 0px ;
+    padding: 0px ;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.nav1{
+     border: 1px solid rgb(231, 230, 230);
+      letter-spacing: 0.1em;
+  font-size: 13px;
+  height: 35px;
+  
+  
+}
+.icon1{
+    font-size: 20px;
+    color: var(--dark);
+}
+.icon3{
+    font-size: 20px;
+    color: var(--dark);
+
+}
+.nav3{
+    font-size: 12px;
+    letter-spacing: 0.1em;
+}
+#home{
+    color: black;
+    text-decoration: underline;
+}
+.unlist li:hover{
+    text-decoration: underline;
+    color :black;
+}
+
+li{
+    color: var(--light);
+}
+.para11{
+    color: var(--dark);
+}
+
+
+.button2{
+    background-color: black;
+    color: white;
+   border-radius: 0px;
+   font-size: 13px;
+}
+
+.hero2{
+    background-image: url(./assets/hero2.jpg);
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+
+}
+.buttondiv2{
+    position: absolute;
+    bottom: 50px;
+    margin-left: 200px;
+    
+}
+
+.button3{
+    background-color: white;
+    color: black;
+    border: 2px solid black
+}
+.button3:hover{
+    background-color: black;
+    color: white;
+}
+.button2:hover{
+    border: 2px solid black;
+}
+.para,.para2,.para3{
+    margin-bottom: 7px;
+    
+}
+.para{
+    font-size: 13px;
+}
+.para2{
+    font-size: 13px;
+}
+.card{
+    border: none
+}
+.card:hover{
+    text-decoration: underline;
+}
+.cardsection3{
+    height: 400px;
+    
+}
+.lastcard{
+    margin-bottom: 150px;
+}
+
+.footer{
+     
+    background-color: black;
+    color: var(--light);
+    
+}
+
+ .cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+} 
+
+/* footer */
+
+.footer h5{
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+}
+.sec2list{
+    font-size: 14px;
+    font-weight: bold;
+}
+.footer p{
+    font-size: 14px;
+    font-weight: bold;
+}
+.boldarea{
+    font-weight: 900;
+    font-size: 15px;
+}
+
+.sec2list,.sec32para,.sec34para{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+@media (max-width:299px) {
+    .para11{
+        font-size: 10px;
+    }
+    .nav3{
+        display: none;
+    }
+    .container h1{
+        font-size: 20px;
+    }
+     .cardsection3{
+        display: grid !important;
+        grid-template-columns:  1fr !important;
+    }
+    
+}
+@media (min-width:300px ) and (max-width:576px) {
+
+
+    .para1{
+        font-size: 11px;
+        
+    }
+    .nav3{
+        display: none;
+    }
+ .cardsection3{
+        display: grid !important;
+        grid-template-columns: 1fr 1fr !important;
+        height: 1400px;
+    }
+
+
+}
+@media (min-width:577px) and (max-width: 768px) {
+    .para1{
+        font-size: 11px;
+    }
+     .nav3{
+        display: none;
+    }
+    .cardsection3{
+        display: grid !important;
+        grid-template-columns: 1fr 1fr 1fr !important;
+        height: 650px;
+    }
+    .footersec3{
+        
+    }
+    
+    
+}
+
+@media (min-width:769px) and (max-width:992px) {
+     .nav3{
+        display: none;
+    }
+}
+
