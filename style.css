@@ -100,12 +100,34 @@ li{
 .card:hover{
     text-decoration: underline;
 }
-.cardsection3{
+/* .cardsection3{
     height: 400px;
     
+} */
+
+/* card section 4 */
+
+.cardsection4 i{
+    font-size: 30px;
+   
+}
+.card1{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card1 h4{
+    font-size: 16px ;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.card1 p{
+    font-size: 14px;
 }
 .lastcard{
-    margin-bottom: 150px;
+    margin-bottom: 50px;
 }
 
 .footer{
@@ -178,7 +200,7 @@ li{
  .cardsection3{
         display: grid !important;
         grid-template-columns: 1fr 1fr !important;
-        height: 1400px;
+        /* height: 1400px; */
     }
 
 
@@ -193,7 +215,7 @@ li{
     .cardsection3{
         display: grid !important;
         grid-template-columns: 1fr 1fr 1fr !important;
-        height: 650px;
+        /* height: 650px; */
     }
     .footersec3{
         
